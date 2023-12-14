@@ -13,14 +13,21 @@
 // Ich wohne in Celestia
 // Vergiss nicht, die Funktion mit deinen Daten/Argumenten aufzurufen
 
-let vorname = "Aurora"
-let nachname = "Stardust"
-let geburtsort = "Stellarion"
-let alter = "20"
-let wohnort = "Celestia"
+// let vorname = "Aurora"
+// let nachname = "Stardust"
+// let geburtsort = "Stellarion"
+// let alter = "20"
+// let wohnort = "Celestia"
 
-const funcIam = () => { return (`Mein Name ist ${vorname},  ${nachname}. Ich bin auf ${geburtsort} geboren. Ich bewache die Welt vor finsteren Mächten. Ich bin ${alter} alt. Ich wohne in ${wohnort}.`)
+// const funcIam = () => { return (`Mein Name ist ${vorname},  ${nachname}. Ich bin auf ${geburtsort} geboren. Ich bewache die Welt vor finsteren Mächten. Ich bin ${alter} alt. Ich wohne in ${wohnort}.`)
+// }
+// console.log(funcIam())
+
+// funcIam()
+
+
+const funcIam = (vorname, nachname, geburtsort, alter, wohnort) => {
+    
+    return (`Mein Name ist ${vorname},  ${nachname}. Ich bin auf ${geburtsort} geboren. Ich bewache die Welt vor finsteren Mächten. Ich bin ${alter} alt. Ich wohne in ${wohnort}.`)
 }
-console.log(funcIam())
-
-funcIam()
+console.log(funcIam("Aurora", "Stardust", "Stellarion", "20", "Celestia"))
